@@ -27,7 +27,7 @@
   },
   "scripts": {
     "start": "node ./bin/index.js",
-    "prepublish": "coffee -o lib -c src"
+    "prepublish": "./node_modules/coffee-script/bin/coffee -o lib -c src"
   },
   "bin": {
     "pipemail-server": "./bin/index.js"
