@@ -1,0 +1,36 @@
+{
+  "name": "pipemail-server",
+  "version": "0.0.1",
+  "license": "GPL-3.0",
+  "description": "Forward get requests to an email",
+  "author": {
+    "name": "Mohamad Alamili",
+    "url": "https://github.com/sysunite/pipemail-server",
+    "email": "mohamad@sysunite.com"
+  },
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weaverplatform/pipemail-server"
+  },
+  "dependencies": {
+    "bluebird": "^3.2.1",
+    "cors": "^2.7.1",
+    "emailjs": "^1.0.2",
+    "express": "^4.13.0",
+    "inquirer": "^0.11.4",
+    "nedb": "^1.7.4"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.9.3"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "scripts": {
+    "prepublish": "coffee -o lib -c src"
+  },
+  "bin": {
+    "pipemail-server": "./bin/index.js"
+  }
+}
