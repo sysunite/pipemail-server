@@ -25,7 +25,7 @@
   },
   "scripts": {
     "start": "node ./bin/index.js",
-    "prestart": "./node_modules/coffee-script/bin/coffee -o lib -c src",
+    "postinstall": "./node_modules/coffee-script/bin/coffee -o lib -c src",
     "prepublish": "./node_modules/coffee-script/bin/coffee -o lib -c src"
   },
   "bin": {
