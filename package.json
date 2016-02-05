@@ -26,6 +26,7 @@
     "node": ">=0.8"
   },
   "scripts": {
+    "start": "node ./bin/index.js",
     "prepublish": "coffee -o lib -c src"
   },
   "bin": {
