@@ -56,7 +56,8 @@ run = ->
   )
   
   # Launch
-  http.listen(9090, ->
+  http_port = process.env.PORT || 9090;
+  http.listen(http_port, ->
     console.log('Pipemail Server running')
   )
   
