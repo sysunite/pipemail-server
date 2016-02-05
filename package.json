@@ -15,12 +15,10 @@
     "url": "https://github.com/weaverplatform/pipemail-server"
   },
   "dependencies": {
+    "coffee-script": "^1.9.3",
     "cors": "^2.7.1",
     "emailjs": "^1.0.2",
     "express": "^4.13.0"
-  },
-  "devDependencies": {
-    "coffee-script": "^1.9.3"
   },
   "engines": {
     "node": ">=0.8"
