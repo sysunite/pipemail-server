@@ -1,6 +1,6 @@
 {
   "name": "pipemail-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "GPL-3.0",
   "main": "./bin/index.js",
   "description": "Forward get requests to an email",
@@ -12,7 +12,7 @@
   "readme": "README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/weaverplatform/pipemail-server"
+    "url": "https://github.com/sysunite/pipemail-server"
   },
   "dependencies": {
     "coffee-script": "^1.9.3",
